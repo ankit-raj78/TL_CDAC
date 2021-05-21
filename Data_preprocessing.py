@@ -89,5 +89,5 @@ def preprocess(source_text, target_text):
 
 # function to load the preprocessed data
 def load_preprocess():
-    with open('preprocess.p', mode='rb') as in_file:
+    with open('preprocess.pkl', mode='rb') as in_file:
         return pickle.load(in_file)
