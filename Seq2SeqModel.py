@@ -193,7 +193,7 @@ with tf.Session(graph=train_graph) as sess:
     
 # Save the parameters   
 def save_params(params):
-    with open('params.pkl', 'wb') as out_file:
+    with open('params.p', 'wb') as out_file:
         pickle.dump(params, out_file)
 
 save_params(save_path)
