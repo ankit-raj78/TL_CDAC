@@ -56,7 +56,6 @@ We used _Adam optimizer_ (`tf.train.AdamOptimizer`) with specified learning rate
 ## Train:
 We defined get_accuracy function to compute train and validation accuracy.
  
-![Training and Validation accuracy of the model over 60 epochs](/Screenshot_accuracy.JPG)
 
 ## Save parameters:
 We then saved the `batch_size` and `save_path` parameters for inference.
